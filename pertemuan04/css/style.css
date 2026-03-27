@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Mono";
+    src: url("../fonts/Montserrat-Italic-VariableFont_wght.ttf");
+}
+
+* {  
+    font-family: "Mono";
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 40px;
+}
+
+.web{
+    font-style: italic;
+}
+
+.oop{
+    text-decoration: underline;
+}
+
+#btn1{
+    color: red;
+}
+
+.btn:hover{
+    background-color: #4CAF50; 
+    color: white;
+}
+button{
+    min-width: 400px;
+    height: 100px;
+    background-color: pink;
+    transition-duration: 0.3s;
+}
